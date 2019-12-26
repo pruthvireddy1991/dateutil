@@ -27,6 +27,10 @@ matrix:
       env: TOXENV=tz
     - python: 3.7
       env: TOXENV=build
+    - python: 3.7
+      arch: arm64
+    - python: 3.8
+      arch: arm64
   allow_failures:
     - python: "nightly"
     - python: "pypy3.6"
